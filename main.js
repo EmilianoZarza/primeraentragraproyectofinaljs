@@ -84,7 +84,7 @@ function markComplete(id) {
 }
 
 function startBreak() {
-  time = 1 * 60;
+  time = 5 * 60;
     document.querySelector("#time #taskName").textContent = "Break";
     timerBreak = setInterval(timerBreakHandler, 1000);
 }
