@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="registro">
+        <p>REGISTRARSE</p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" />
+
+        <label for="nombre">Password:</label>
+        <input type="text" id="password" />
+
+        <input type="button" onclick="guardarDatos()" value="Guardar datos" />
+
+        <p id="datos">Pulsa para ver tu nombre y tu password.</p>
+        <input type="button" onclick="recuperarDatos()" value="Recuperar datos" />
+    </div>
+
     <h1>Organizador de Estudio</h1>
     <h2>POMODORO</h2>
     <div id="app">
@@ -28,7 +42,7 @@
             </div>
         </div>
     </div>
-
+<script src="registro.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

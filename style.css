@@ -1,6 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(45, 0, 128);
+    background-color: rgb(201, 179, 241);
+}
+
+.registro{
+    text-align: justify;
+    color: white;
+    width: 300px;
+    height: 300px;
 }
 
 h1{
